@@ -1,0 +1,10 @@
+# Wanderlust Adventures
+> Discover breathtaking destinations and affordable global tour packages.
+
+We are a premium travel agency offering curated adventure packages to remote destinations including Everest Base Camp, Redwood Forest, and Patagonia.
+
+## Key Pages
+- Home: https://wanderlust-ad-ventures.netlify.app/
+- About: https://wanderlust-ad-ventures.netlify.app/about.html
+- Packages: https://wanderlust-ad-ventures.netlify.app/packages.html
+- Contact: https://wanderlust-ad-ventures.netlify.app/contact.html
