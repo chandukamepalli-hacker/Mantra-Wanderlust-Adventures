@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover breathtaking destinations and affordable global tour packages with Wanderlust Adventures.">
+    <title>Wanderlust Adventures | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Wanderlust <span>Adventures</span></div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="slider-container">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80');">
+                <div class="slide-content">
+                    <h1>Explore the Unseen World</h1>
+                    <p>Experience custom-tailored adventure packages to the planet's most remote destinations.</p>
+                    <a href="packages.html" class="btn">Discover Packages</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1504280390467-316814329243?auto=format&fit=crop&w=1600&q=80');">
+                <div class="slide-content">
+                    <h1>Find Your Wild Side</h1>
+                    <p>Immerse yourself in nature's greatest wilderness landscapes and forests.</p>
+                    <a href="booking.html" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=80');">
+                <div class="slide-content">
+                    <h1>Unforgettable Journeys</h1>
+                    <p>Your next great summit story begins right here.</p>
+                    <a href="gallery.html" class="btn">View Gallery</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="slider-controls">
+            <button class="arrow-btn" onclick="changeSlide(-1)">❮ Prev</button>
+            <button class="arrow-btn" onclick="changeSlide(1)">Next ❯</button>
+        </div>
+
+        <section class="container">
+            <h2>Why Travel With Us?</h2>
+            <div class="grid-3">
+               <div class="card">
+    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600" alt="Expert Hiker Guide">
+    <div class="content">
+        <h3>Expert Guides</h3>
+        <p>Our local survival experts ensure your safety and provide deep insights into every destination.</p>
+    </div>
+</div>
+
+                               <div class="card">
+                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80" alt="Airplane flying over clouds">
+                    <div class="content">
+                        <h3>Affordable Flights</h3>
+                        <p>We partner with top global airlines to package luxury flight experiences perfectly into your budget.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Customer service team">
+                    <div class="content">
+                        <h3>24/7 Global Support</h3>
+                        <p>No matter what time zone you are exploring, our concierge team is always a call away.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wanderlust Adventures. Built for MANTRA 2026.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

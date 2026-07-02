@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your next adventure securely.">
+    <title>Book a Trip | Wanderlust Adventures</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Wanderlust <span>Adventures</span></div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html" class="active">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Secure Your Booking</h1>
+        <p style="margin-bottom: 40px;">Select your package and travel dates below to lock in the rates.</p>
+        
+        <form class="contact-form" id="bookingForm">
+            <div class="form-group">
+                <label for="b_name">Lead Traveler Name *</label>
+                <input type="text" id="b_name" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="b_email">Email Address *</label>
+                <input type="email" id="b_email" required placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="destination">Select Package *</label>
+                <select id="destination" required>
+                    <option value="" disabled selected>Choose an excursion...</option>
+                    <option value="Everest">Everest Base Camp</option>
+                    <option value="Redwood">Redwood Forest</option>
+                    <option value="Patagonia">Patagonia Expedition</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Expected Travel Date *</label>
+                <input type="date" id="date" required>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Confirm Booking</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wanderlust Adventures. Built for MANTRA 2026.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
